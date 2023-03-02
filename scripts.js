@@ -15,7 +15,7 @@ function myFunction() {
             + " " +obj.level.padEnd(5)
             + " ["+obj.logger.padEnd(40)
             +"] ["+obj.code
-            +"] "+formatStackTrace(obj.message)
+            +"] - "+formatStackTrace(obj.message)
             +"\n";
         }
     }
