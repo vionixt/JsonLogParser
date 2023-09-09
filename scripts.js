@@ -1,6 +1,6 @@
 /* Place your JavaScript in this file */
 
-function myFunction() {
+function convertJsonToPlainText() {
     document.getElementById("convert").style.color = "red";
   
     // Read lines from the input field 
@@ -53,4 +53,7 @@ function download() {
     document.body.appendChild(element);
     element.click();
     document.body.removeChild(element);
+}
+function clearText() {
+    document.getElementById('plainLogs').value = "";
 }
